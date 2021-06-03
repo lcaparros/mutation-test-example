@@ -57,7 +57,7 @@ it we can just include a new test case as below:
 ```java
 @Test
 public void nearPalindrom(){
-        Palindrome palindromeTester=new Palindrome();
-        assertFalse(palindromeTester.isPalindrome("neon"));
-        }
+    Palindrome palindromeTester=new Palindrome();
+    assertFalse(palindromeTester.isPalindrome("neon"));
+}
 ```
