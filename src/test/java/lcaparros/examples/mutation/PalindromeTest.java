@@ -29,4 +29,10 @@ public class PalindromeTest {
         Palindrome palindromeTester = new Palindrome();
         assertFalse(palindromeTester.isPalindrome("box"));
     }
+
+    @Test
+    public void nearPalindrom() {
+        Palindrome palindromeTester = new Palindrome();
+        assertFalse(palindromeTester.isPalindrome("neon"));
+    }
 }
